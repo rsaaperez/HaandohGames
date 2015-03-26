@@ -6394,6 +6394,7 @@ public class TresEnRaya extends ActionBarActivity implements View.OnClickListene
         bCompartir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Añadimos una puntuación.
                 ODB odb = null;
                 Puntuaciones puntuaciones;
                 try {
